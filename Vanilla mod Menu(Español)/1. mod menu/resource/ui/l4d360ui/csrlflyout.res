@@ -1,0 +1,107 @@
+"Resource/UI/CSRLFlyout.res"
+{
+	"PnlBackground"
+	{
+		"ControlName"			"Panel"
+		"fieldName"				"PnlBackground"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"192" [$ENGLISH]
+		"wide"					"270" [!$ENGLISH]
+		"tall"					"65"  [$X360]
+		"tall"					"85"  [$WIN32]
+		"visible"				"1"
+		"enabled"				"1"
+		"paintbackground"		"1"
+		"paintborder"			"1"
+	}
+
+	"BtnCSRL"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCSRL"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCSRL4"
+		"navDown"				"BtnCSRL2"
+		"labelText"				"1: Arrollo"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmCSCDRLFlyout"
+	}
+	
+	"BtnCSRL2"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCSRL2"
+		"xpos"					"0"
+		"ypos"					"20"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCSRL"
+		"navDown"				"BtnCSRL3"
+		"labelText"				"2: Corriente del sur"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmCSCDRL1Flyout"
+	}
+	
+	"BtnCSRL3"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCSRL"
+		"xpos"					"0"
+		"ypos"					"40"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCSRL2"
+		"navDown"				"BtnCSRL5"
+		"labelText"				"3: Puente conmemorativo"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmCSCDRL2Flyout"
+	}
+	
+	"BtnCSRL4"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCSRL4"
+		"xpos"					"0"
+		"ypos"					"60"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCSRL3"
+		"navDown"				"BtnCSRL"
+		"labelText"				"4: Rápidos"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmCSCDRL3Flyout"
+	}
+}

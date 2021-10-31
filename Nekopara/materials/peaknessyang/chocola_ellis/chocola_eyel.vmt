@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "peaknessyang/Chocola_Ellis/Chocola_eyeL"
+	"$bumpmap" "peaknessyang/Chocola_Ellis/normal"
+
+	"$lightwarptexture" "peaknessyang/Chocola_Ellis/basewarp"
+
+        "$phong" "1"
+	"$phongboost"	".1"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "peaknessyang/Chocola_Ellis/phong_exp"
+	"$phongfresnelranges"	"[1 .1 .1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+
+	"$nocull" 1
+	"$nodecal" 1
+	"$translucent" "1"
+}

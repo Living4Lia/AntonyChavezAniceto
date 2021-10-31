@@ -1,0 +1,107 @@
+"Resource/UI/DCRVFlyout.res"
+{
+	"PnlBackground"
+	{
+		"ControlName"			"Panel"
+		"fieldName"				"PnlBackground"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"192" [$ENGLISH]
+		"wide"					"270" [!$ENGLISH]
+		"tall"					"65"  [$X360]
+		"tall"					"85"  [$WIN32]
+		"visible"				"1"
+		"enabled"				"1"
+		"paintbackground"		"1"
+		"paintborder"			"1"
+	}
+
+	"BtnDCRV"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnDCRV"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnDCRV4"
+		"navDown"				"BtnDCRV2"
+		"labelText"				"1: Hotel"
+		"tooltiptext"			"Start Split-screen Dead Center"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmDCCDRVFlyout"
+	}
+	
+	"BtnDCRV2"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnDCRV2"
+		"xpos"					"0"
+		"ypos"					"20"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnDCRV"
+		"navDown"				"BtnDCRV3"
+		"labelText"				"2: Calles"
+		"tooltiptext"			"Start Split-screen Dead Center"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmDCCDRV1Flyout"
+	}
+	
+	"BtnDCRV3"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnDCRV3"
+		"xpos"					"0"
+		"ypos"					"40"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnDCRV2"
+		"navDown"				"BtnDCRV4"
+		"labelText"				"3: Centro comercial"
+		"tooltiptext"			"Start Split-screen Dead Center"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmDCCDRV2Flyout"
+	}
+	
+	"BtnDCRV4"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnDCRV4"
+		"xpos"					"0"
+		"ypos"					"60"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnDCRV3"
+		"navDown"				"BtnDCRV"
+		"labelText"				"4: Atrio"
+		"tooltiptext"			"Start Split-screen Dead Center"
+		"style"					"FlyoutMenuButton"
+		"command"				"FlmDCCDRV3Flyout"
+	}
+}

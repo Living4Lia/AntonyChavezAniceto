@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "TDAkimonoHaku/Haku/face_Haku1"
+        "$lightwarptexture" "TDAkimonoHaku/Haku/basewarp"
+         "$bumpmap" "TDAkimonoHaku/Haku/normal"
+	"$nodecal" 1
+	"$phong" "1"
+"$phongboost"	".02"
+"$phongalbedotint" "1"
+"$phongfresnelranges"	"[.1 .1 .1]"
+"$PhongExponent" "1.0"
+	"$halflambert" "1"
+	 
+	"$detail" "TDAkimonoHaku/Haku/face_Haku1_illum"
+	"$detailscale" "1"
+	"$detailblendfactor" "0.02"
+	"$detailblendmode" "5"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "6"
+	"$rimlightboost"          "4"
+}

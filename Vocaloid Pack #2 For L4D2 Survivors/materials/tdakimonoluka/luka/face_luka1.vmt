@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "tdakimonoluka/luka/face_Luka1"
+        "$lightwarptexture" "tdakimonoluka/luka/basewarp"
+         "$bumpmap" "tdakimonoluka/luka/normal"
+		"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[.1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$halflambert" "1"
+	
+	"$detail" "tdakimonoluka/luka/face_Luka1_illum"
+	"$detailscale" "1"
+	"$detailblendfactor" "0.02"
+	"$detailblendmode" "5"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "6"
+	"$rimlightboost"          "4"
+}

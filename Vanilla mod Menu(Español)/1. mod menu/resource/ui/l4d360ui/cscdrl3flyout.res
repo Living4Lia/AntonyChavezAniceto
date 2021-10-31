@@ -1,0 +1,107 @@
+"Resource/UI/CSCDRL3Flyout.res"
+{
+	"PnlBackground"
+	{
+		"ControlName"			"Panel"
+		"fieldName"				"PnlBackground"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"192" [$ENGLISH]
+		"wide"					"270" [!$ENGLISH]
+		"tall"					"65"  [$X360]
+		"tall"					"85"  [$WIN32]
+		"visible"				"1"
+		"enabled"				"1"
+		"paintbackground"		"1"
+		"paintborder"			"1"
+	}
+	
+	"BtnCSEY"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCSEY"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCS3"
+		"navDown"				"BtnCSNM"
+		"labelText"				"Fácil"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"#map c13m4_cutthroatcreek realism;z_difficulty Easy;wait 100;connect_splitscreen localhost 2"
+	}
+
+	"BtnCSNM"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCSNM"
+		"xpos"					"0"
+		"ypos"					"20"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCSEY"
+		"navDown"				"BtnCS2"
+		"labelText"				"Normal"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"#map c13m4_cutthroatcreek realism;z_difficulty Normal;wait 100;connect_splitscreen localhost 2"
+	}
+	
+	"BtnCS2"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCS2"
+		"xpos"					"0"
+		"ypos"					"40"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCS"
+		"navDown"				"BtnCS3"
+		"labelText"				"Avanzado"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"#map c13m4_cutthroatcreek realism;z_difficulty Hard;wait 100;connect_splitscreen localhost 2"
+	}
+	
+	"BtnCS3"
+	{
+		"ControlName"			"L4D360HybridButton"
+		"fieldName"				"BtnCS3"
+		"xpos"					"0"
+		"ypos"					"60"
+		"wide"					"50"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"		
+		"navUp"					"BtnCS2"
+		"navDown"				"BtnCSEY"
+		"labelText"				"Experto"
+		"tooltiptext"			"Start Split-screen Cold Stream"
+		"style"					"FlyoutMenuButton"
+		"command"				"#map c13m4_cutthroatcreek realism;z_difficulty Impossible;wait 100;connect_splitscreen localhost 2"
+	}
+}

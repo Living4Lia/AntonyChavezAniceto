@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "raitoningu/coconut_coach/co_eyes"
+	"$bumpmap" "raitoningu/coconut_coach/normal"
+	"$nodecal" 1
+	"$ambientocclusion" "0"
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongexponent" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$phongwarptexture" "raitoningu/coconut_coach/shader"
+	"$lightwarptexture" "raitoningu/coconut_coach/toon_skin"
+}
+
+
+

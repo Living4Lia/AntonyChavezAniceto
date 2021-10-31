@@ -1,0 +1,52 @@
+// Addoninfo.txt file by Living4Lia
+ 
+"AddonInfo"
+{
+    "addonSteamAppID"					"550"
+    "addontitle"						"Vocaloid Pack #1 For L4D1 Survivors"
+    "addonversion"						"1.0"
+    "addontagline"						"Descripción"
+    "addonauthor"						"Living4Lia"
+	"addonSteamGroupName"				""
+    "addonauthorSteamID"				""
+	"addonURL0"							""
+	"addonDescription"					""
+	 
+	"addonContent_Campaign"				"0"
+	"addonContent_Survival"				"0"
+	"addonContent_Scavenge"				"0"
+	"addonContent_Versus"				"0"
+	"addonContent_Map"					"0"
+	
+	"addonContent_Survivor"				"1"
+	"addonContent_Skin"					"1"
+	
+	"addonContent_BossInfected"			"0"
+	"addonContent_CommonInfected"		"0"
+	"addonContent_Music"				"0"
+	"addonContent_Sound"				"0"
+	"addonContent_Prop"					"0"
+	"addonContent_Prefab"				"0"
+	"addonContent_Spray"				"0"
+	"addonContent_Script"				"0"
+	"addonContent_BackgroundMovie"		"0"
+	
+	"addonContent_Weapon"				"0"
+	"addonContent_WeaponModel"			"0"
+	
+	"addonDescription_DA"				""
+	"addonDescription_NL"				""
+	"addonDescription_FI"				""
+	"addonDescription_FR"				""
+	"addonDescription_DE"				""
+	"addonDescription_IT"				""
+	"addonDescription_JA"				""
+	"addonDescription_KO"				""
+	"addonDescription_NO"				""
+	"addonDescription_PL"				""
+	"addonDescription_PT"				""
+	"addonDescription_RU"				""
+	"addonDescription_ZH"				""
+	"addonDescription_ES"				""
+	"addonDescription_SV"				""
+}

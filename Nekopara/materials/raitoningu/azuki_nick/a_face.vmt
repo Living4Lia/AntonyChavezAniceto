@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "raitoningu/azuki_nick/a_face"
+	"$bumpmap" "raitoningu/azuki_nick/normal"
+	"$nodecal" 1
+	"$ambientocclusion" "0"
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongexponent" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$phongwarptexture" "raitoningu/azuki_nick/shader"
+	"$lightwarptexture" "raitoningu/azuki_nick/toon_skin"
+}
+
+
+

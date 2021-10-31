@@ -1,0 +1,7 @@
+sprays_manifest
+{
+	"Steamhappy.vtf"	        "Steamhappy.vtf"
+}
+
+
+
